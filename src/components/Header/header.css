@@ -1,14 +1,16 @@
 .header {
   width: 100%;
   font-size: 2rem;
-  color: steelblue;
+  color: navy;
   margin-bottom: 10px;
 }
 
 .title {
-  float: left;
+  /* float: left; */
+text-align: center;
 }
 
-.scores {
+.scores {  
   float: right;
+  margin-right: 100px;
 }

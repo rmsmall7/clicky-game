@@ -1,16 +1,18 @@
 import React from "react";
-import "./Card.css";
+import "../Card/Card.css";
+// import "./cards.js";
 // import "../../cards.json";
 // import "../../App.js";
 
 
 
-const Card = props => (
-  <div className="card" onClick={() => props.clickCount(props.id)}>
+const LKCard = props => (
+  <div className="card" onClick={() => props.clickImage}>
     <div className="img-contanier">
-      <img src={props.images} alt={props.name}/>
+      <img alt={props.image.replace(".jpg", "")} src={require("../../images/" + props.image)} />
     </div>
   </div>
 );
 
-export default Card;
+
+export default LKCard;

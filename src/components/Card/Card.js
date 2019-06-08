@@ -1,8 +1,5 @@
 import React from "react";
 import "../Card/Card.css";
-// import "./cards.js";
-// import "../../cards.json";
-// import "../../App.js";
 
 
 

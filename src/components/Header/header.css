@@ -6,13 +6,10 @@
 }
 
 .title {
-  /* float: left; */
 text-align: center;
 }
 
 .scores {  
-  /* float: right; */
-  /* margin-right: 200px; */
   font-size: 50px;
   text-align: center;
   color: orangered;

@@ -9,7 +9,7 @@ const Header = props => (
     </div>
     
     <div className="scores">
-      Score: {props.score}  Highscore: {props.Highscore}
+      Score: {props.score}  
     </div>
   </div>
 );

@@ -11,7 +11,6 @@ class App extends Component {
     cards,
     clickedCard: [],
     score: 0,
-    highscore: 0,
   };
 
   clickImage = event => {
@@ -90,7 +89,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}></Header>
+        <Header score={this.state.score} ></Header>
         {this.state.cards.map(cards => (
           <LKCard
             clickImage = {this.clickImage}
